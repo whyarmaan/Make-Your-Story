@@ -1,0 +1,21 @@
+{
+  "name": "makeyourbook",
+  "version": "1.0.0",
+  "description": "The Backend Apu for my web project Make your book",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon app.js",
+    "productionStart": "node app.js"
+  },
+  "author": "Armaan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0"
+  }
+}
