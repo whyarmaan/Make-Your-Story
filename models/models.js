@@ -29,4 +29,7 @@ storySchema = mongoose.Schema({
     }
 })
 
+//TODO: Make A Users SCHEMA With passport integrated and It should have:- 
+//?                     1.) Username, 2.) E-Mail ID, 3.) Full Name, 4.) Password
+
 module.exports = mongoose.model("Stories", storySchema)

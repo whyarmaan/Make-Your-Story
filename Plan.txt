@@ -1,0 +1,23 @@
+---------------------------------------Here We Can Discuss Our Plans!--------------------------------------------
+
+***************************         ARMAAN      ********************
+Okay so the main plan behind this web app is to let users post stories and and other users can also read stories made by other peoples
+and they can even like and share other's stories 
+
+but we arent allowing users to comment on other's post
+And i think we can use cookies to save stories as draft in the browser and we will wait untill the users presses the publish button
+
+//Date: 18th August 2020
+    The current progress is that i have started to work on the backend API and added the post option so that users can post their stories
+    and we are even validating the request on the server side and as for the proxy we gonna use CORS so that Vue can integrate with the backend API
+    and i have even asked VV for collaboration! Hope he accepts it lol dunno what he gonna say XD ugh and as for the database modelling
+    its pretty much done for the story part i can say only the user's schema is yet to make and shit i have my classes today lets see how am i gonna
+    work things up UwU Hope this project is gonna be a good one cause previously i just left that one becuase i wanted to learn data science and stuffs
+    at that time lets see how it goes
+
+    by the way this txt file is just to plan stuffs up and i dont thik i will be commiting this up i will add this to my gitignore file UwU and yeah
+    i can use this as my personal diary or so for this project lol but most importantly i am gonna use this thing for planning and logging stuffs up!
+
+
+PS: Dunno he gonna accept it or not but yeah i am making a slot for him lol! oof bbye i have my classes i am gonna commit this thing real quick! UwU
+*************************           VV          *******************&****
