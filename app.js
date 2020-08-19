@@ -1,11 +1,16 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
-const router = require("./routes/apiroute");
-const bodyParser = require("body-parser")
+const router = require("./routes/api/api.route");
+
+if(process.env.NODE_ENV === 'dev'){
+  require('dotenv').config();
+}
 
 //* App Configurations!
-app.use(bodyParser.urlencoded({extended: true}))
+//Json data
+app.use(express.json());
+app.use(express.urlencoded({extended: true}))
 
 //* Database Configurations!
 mongoose.connect('mongodb://localhost:27017/MakeYourStories', {useNewUrlParser: true, useUnifiedTopology: true})
@@ -15,14 +20,9 @@ mongoose.connect('mongodb://localhost:27017/MakeYourStories', {useNewUrlParser: 
 app.use('/api/v1', router)
 
 //* Getting On The Correct Port *!
-let port;
-if (process.env.PORT) {
-  port = process.env.PORT;
-} else {
-  port = 3000;
-}
+const port = process.env.PORT || 3000;
 
 //* L
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`Server Listening On Port: ${port}`);
 });

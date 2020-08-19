@@ -1,7 +1,7 @@
 //* Import Statements!
 const express = require("express");
 const router = express.Router();
-const models = require("../models/models");
+const models = require("../../models/story.model");
 
 //* Trail Route
 router.get("/", (req, res) => {
