@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 //* Designing The Story Schema!
-storySchema = mongoose.Schema({
+const storySchema = new mongoose.Schema({
     Author: {
         type: String, //* Author field will be required but we are gonna add a default value of Anonymous
         required: true,
